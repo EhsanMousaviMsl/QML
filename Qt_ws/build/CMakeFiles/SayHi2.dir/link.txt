@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/SayHi2.dir/main.cpp.o -o SayHi2 

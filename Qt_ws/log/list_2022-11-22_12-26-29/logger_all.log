@@ -1,0 +1,178 @@
+[0.546s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/ehsan/Documents/GitHub/Fun/Qt_ws']
+[0.546s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/ehsan/Documents/GitHub/Fun/Qt_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd712062e90>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fd7122457e0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fd7122457e0>>)
+[0.588s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.588s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.588s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.589s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ehsan/Documents/GitHub/Fun/Qt_ws'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws) by extension 'ignore'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws) by extension 'ignore_ament_install'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws) by extensions ['colcon_pkg']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws) by extension 'colcon_pkg'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws) by extensions ['colcon_meta']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws) by extension 'colcon_meta'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws) by extensions ['ros']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws) by extension 'ros'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws) by extensions ['cmake', 'python']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws) by extension 'cmake'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws) by extension 'python'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws) by extensions ['python_setup_py']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws) by extension 'python_setup_py'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build) by extension 'ignore'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build) by extension 'ignore_ament_install'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build) by extensions ['colcon_pkg']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build) by extension 'colcon_pkg'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build) by extensions ['colcon_meta']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build) by extension 'colcon_meta'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build) by extensions ['ros']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build) by extension 'ros'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build) by extensions ['cmake', 'python']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build) by extension 'cmake'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build) by extension 'python'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build) by extensions ['python_setup_py']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build) by extension 'python_setup_py'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles) by extensions ['ignore', 'ignore_ament_install']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles) by extension 'ignore'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles) by extension 'ignore_ament_install'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles) by extensions ['colcon_pkg']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles) by extension 'colcon_pkg'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles) by extensions ['colcon_meta']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles) by extension 'colcon_meta'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles) by extensions ['ros']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles) by extension 'ros'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles) by extensions ['cmake', 'python']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles) by extension 'cmake'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles) by extension 'python'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles) by extensions ['python_setup_py']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles) by extension 'python_setup_py'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1) by extensions ['ignore', 'ignore_ament_install']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1) by extension 'ignore'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1) by extension 'ignore_ament_install'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1) by extensions ['colcon_pkg']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1) by extension 'colcon_pkg'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1) by extensions ['colcon_meta']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1) by extension 'colcon_meta'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1) by extensions ['ros']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1) by extension 'ros'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1) by extensions ['cmake', 'python']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1) by extension 'cmake'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1) by extension 'python'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1) by extensions ['python_setup_py']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1) by extension 'python_setup_py'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdC) by extensions ['ignore', 'ignore_ament_install']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'ignore'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'ignore_ament_install'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdC) by extensions ['colcon_pkg']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'colcon_pkg'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdC) by extensions ['colcon_meta']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'colcon_meta'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdC) by extensions ['ros']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'ros'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdC) by extensions ['cmake', 'python']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'cmake'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'python'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdC) by extensions ['python_setup_py']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'python_setup_py'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['ignore', 'ignore_ament_install']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'ignore'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'ignore_ament_install'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['colcon_pkg']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'colcon_pkg'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['colcon_meta']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'colcon_meta'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['ros']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'ros'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['cmake', 'python']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'cmake'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'python'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['python_setup_py']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'python_setup_py'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['ignore', 'ignore_ament_install']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'ignore'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'ignore_ament_install'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['colcon_pkg']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'colcon_pkg'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['colcon_meta']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'colcon_meta'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['ros']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'ros'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['cmake', 'python']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'cmake'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'python'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['python_setup_py']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'python_setup_py'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'ignore_ament_install'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['colcon_pkg']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'colcon_pkg'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['colcon_meta']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'colcon_meta'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['ros']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'ros'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['cmake', 'python']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'cmake'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'python'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['python_setup_py']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'python_setup_py'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/CMakeTmp) by extensions ['ignore', 'ignore_ament_install']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/CMakeTmp) by extension 'ignore'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/CMakeTmp) by extension 'ignore_ament_install'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/CMakeTmp) by extensions ['colcon_pkg']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/CMakeTmp) by extension 'colcon_pkg'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/CMakeTmp) by extensions ['colcon_meta']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/CMakeTmp) by extension 'colcon_meta'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/CMakeTmp) by extensions ['ros']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/CMakeTmp) by extension 'ros'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/CMakeTmp) by extensions ['cmake', 'python']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/CMakeTmp) by extension 'cmake'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/CMakeTmp) by extension 'python'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/CMakeTmp) by extensions ['python_setup_py']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/build/CMakeFiles/CMakeTmp) by extension 'python_setup_py'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/log) by extension 'ignore'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/log) ignored
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src) by extension 'ignore'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src) by extension 'ignore_ament_install'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src) by extensions ['colcon_pkg']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src) by extension 'colcon_pkg'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src) by extensions ['colcon_meta']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src) by extension 'colcon_meta'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src) by extensions ['ros']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src) by extension 'ros'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src) by extensions ['cmake', 'python']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src) by extension 'cmake'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src) by extension 'python'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src) by extensions ['python_setup_py']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src) by extension 'python_setup_py'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src/SayHi) by extensions ['ignore', 'ignore_ament_install']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src/SayHi) by extension 'ignore'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src/SayHi) by extension 'ignore_ament_install'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src/SayHi) by extensions ['colcon_pkg']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src/SayHi) by extension 'colcon_pkg'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src/SayHi) by extensions ['colcon_meta']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src/SayHi) by extension 'colcon_meta'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src/SayHi) by extensions ['ros']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src/SayHi) by extension 'ros'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src/SayHi) by extensions ['cmake', 'python']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src/SayHi) by extension 'cmake'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src/SayHi) by extension 'python'
+[0.629s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ehsan/Documents/GitHub/Fun/Qt_ws/src/SayHi' with type 'cmake' and name 'sayHello'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src/Sayhi2) by extensions ['ignore', 'ignore_ament_install']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src/Sayhi2) by extension 'ignore'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src/Sayhi2) by extension 'ignore_ament_install'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src/Sayhi2) by extensions ['colcon_pkg']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src/Sayhi2) by extension 'colcon_pkg'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src/Sayhi2) by extensions ['colcon_meta']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src/Sayhi2) by extension 'colcon_meta'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src/Sayhi2) by extensions ['ros']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src/Sayhi2) by extension 'ros'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src/Sayhi2) by extensions ['cmake', 'python']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src/Sayhi2) by extension 'cmake'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ehsan/Documents/GitHub/Fun/Qt_ws/src/Sayhi2) by extension 'python'
+[0.631s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ehsan/Documents/GitHub/Fun/Qt_ws/src/Sayhi2' with type 'cmake' and name 'Sayhi2'
+[0.631s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
