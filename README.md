@@ -1,2 +1,2 @@
-# cpp
-cpp just for fun
+# CPP & QML
+just for fun and learning ;)
